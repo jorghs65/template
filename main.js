@@ -71,6 +71,4 @@ $(document).ready(function(){
 
 
 
-
-    $("#panel-right-content").after(htmlString);
 });
