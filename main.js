@@ -5,7 +5,7 @@ $(document).ready(function(){
 
 
 
-    var htmlString = `
+    var rightContent = `
     <div id="featured-product">
         <div id="product-description" class="noprint">
             <span id="parent-category">LOG IN / REGISTRATION</span>
@@ -57,5 +57,20 @@ $(document).ready(function(){
 
     
     
-    $('#panel-right-content').append(htmlString);
+    $('#panel-right-content').append(rightContent);
+
+
+    var footer = `
+    <div class="clearfix"></div>
+    <div style="margin-top:50px;" class="noprint"><a href="content.php?pgID=31#priceguaranteepolicy"><img src="images/blrb20160202110641web_banner_r.png" width="717" height="110" border="0"></a></div>
+    <div class="clearfix">&nbsp;</div>
+    `;
+
+    $("#panel-right-content").after(footer);
+
+
+
+
+
+    $("#panel-right-content").after(htmlString);
 });
