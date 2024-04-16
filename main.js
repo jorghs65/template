@@ -57,5 +57,5 @@ $(document).ready(function(){
 
     
     
-    $('#panel-right-content').append(novoConteudo);
+    $('#panel-right-content').append(htmlString);
 });
